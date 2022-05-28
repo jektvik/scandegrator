@@ -52,7 +52,7 @@
 		"invariant": "2.2.4",
 		"ip": "1.1.5",
 		"minimist": "1.2.0",
-		"moment": "^2.22.2",
+		"moment": "^2.29.2",
 		"node-fetch": "^2.1.2",
 		"node-sass": "^4.0.1",
 		"react": "^16.4.0",
