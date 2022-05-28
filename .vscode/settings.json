@@ -1,5 +1,4 @@
 {
-	"editor.renderIndentGuides": false,
 	"editor.minimap.enabled": false,
 	"extensions.ignoreRecommendations": false,
 	"git.ignoreMissingGitWarning": true,
@@ -58,4 +57,8 @@
 	"editor.suggestSelection": "first",
 	"workbench.colorTheme": "One Dark Pro",
 	"eslint.autoFixOnSave": true,
+	"editor.codeActionsOnSave": {
+		"source.fixAll.eslint": true
+	},
+	"editor.guides.indentation": false,
 }

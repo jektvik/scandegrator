@@ -4,7 +4,6 @@ import { departuresBatchLoaded, departuresLoadingError, allDeparturesLoaded } fr
 import request from 'utils/request'
 import { makeSelectDepartures } from './selectors'
 import moment from 'moment'
-import clonedeep from 'lodash.clonedeep'
 import lodash from 'lodash-es'
 
 export function* requestDepartures(action) {
@@ -16,7 +15,7 @@ export function* requestDepartures(action) {
 		const requestURL = '/api/scandlines'
 		const firstRequestDate = moment(fromDate)
 
-		let requestDate = clonedeep(firstRequestDate)
+		let requestDate = moment(firstRequestDate)
 		let forks = []
 		while (moment(toDate).isAfter(requestDate)) {
 			const requestOptions = getRequestOptions(requestDate, route)

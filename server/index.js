@@ -1,7 +1,7 @@
 
 const express = require('express')
 const logger = require('./util//logger')
-const http = require('http')
+// const http = require('http')
 const argv = require('./util/argv')
 const port = require('./util//port')
 const frontEndSetup = require('./middlewares/frontendMiddleware')
@@ -29,12 +29,12 @@ expressServer.listen(port, host, (err) => {
 	logger.appStarted(port, prettyHost)
 })
 
-setInterval(function () {
-	try {
-		http.get('http://scandegrator.herokuapp.com/')
-	}
-	catch (err) {
-		console.log(err)
-	}
+// setInterval(function () {
+// 	try {
+// 		http.get('http://scandegrator.herokuapp.com/')
+// 	}
+// 	catch (err) {
+// 		console.log(err)
+// 	}
 
-}, 300000) // every 5 minutes (300000)
+// }, 300000) // every 5 minutes (300000)
