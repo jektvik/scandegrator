@@ -54,7 +54,7 @@
 		"minimist": "1.2.0",
 		"moment": "^2.22.2",
 		"node-fetch": "^2.1.2",
-		"node-sass": "^4.0.1",
+		"node-sass": "^7.0.0",
 		"react": "^16.4.0",
 		"react-day-picker": "^7.1.10",
 		"react-dom": "^16.4.2",
