@@ -51,7 +51,7 @@
 		"informed": "^1.9.0",
 		"invariant": "2.2.4",
 		"ip": "1.1.5",
-		"minimist": "1.2.0",
+		"minimist": "1.2.6",
 		"moment": "^2.22.2",
 		"node-fetch": "^2.1.2",
 		"node-sass": "^4.0.1",
