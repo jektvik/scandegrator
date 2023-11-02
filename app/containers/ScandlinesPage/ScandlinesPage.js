@@ -8,12 +8,6 @@ import DeparturesRequestForm from 'containers/ScandlinesPage/Components/Departur
 
 export default class ScandlinesPage extends React.PureComponent {
 
-	componentDidMount() {
-		if (this.props.username && this.props.username.trim().length > 0) {
-			this.props.onSubmitForm()
-		}
-	}
-
 	render() {
 		const departures = this.props.departures
 		departures && departures.sort((a, b) => {
