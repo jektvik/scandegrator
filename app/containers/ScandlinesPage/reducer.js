@@ -12,7 +12,7 @@ import {
 const initialState = fromJS({
 	loading: false,
 	error: false,
-	departures: false
+	departures: []
 })
 
 function scandlinesReducer(state = initialState, action) {
